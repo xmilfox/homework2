@@ -2,21 +2,21 @@
 // 1 завдання
 let x = 1; 
 let y = 2;
-let res = "" + x + y;
-console.log(res);
-console.log(typeof res);
-
-let res1 = Boolean(x) + "" + y;
+let res1 = "" + x + y;
 console.log(res1);
 console.log(typeof res1);
 
-let res2 = Boolean(x);
+let res2 = Boolean(x) + "" + y;
 console.log(res2);
 console.log(typeof res2);
 
-let res3 = parseFloat(Boolean(x));
+let res3 = Boolean(x);
 console.log(res3);
 console.log(typeof res3);
+
+let res4 = parseFloat(Boolean(x));
+console.log(res4);
+console.log(typeof res4);
 
 
 // 2 завдання
